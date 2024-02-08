@@ -1,0 +1,198 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+
+}
+
+.d-flex > .flex-fill > .flex-row-container-one {
+    margin-left: 20px;
+}
+
+.btn, .Button, .ui-button {
+    background: #f5f5f5;
+    color: #2d3b45;
+    border: 1px solid;
+    border-color: #c7cdd1;
+    border-radius: 3px;
+    transition: background-color .2s ease-in-out;
+    display: inline-block;
+    position: relative;
+    padding: 8px 14px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    text-shadow: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.custom-button {
+    border-color: rgb(136, 135, 135) !important;
+}
+
+
+#right-side .button-sidebar-wide {
+    text-align: left;
+    margin: 5px auto;
+    display: block;
+}
+
+.uniform-button {
+    width: 10px; /* Adjust the width as needed */
+    height: 38px; /* Adjust the height as needed */
+    padding: 5px 10px; /* Adjust padding to ensure content fits well */
+    text-align: center; /* Ensures text/icon is centered */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures overflow text is hidden */
+    text-overflow: ellipsis; /* Adds an ellipsis for overflow text */
+  }
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+  }
+
+header {
+    display: block;
+}
+
+.button-container {
+    display: flex;
+  }
+
+
+  .todo-container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.todo-item:last-child {
+    margin-bottom: 0;
+}
+.todo-icon {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 50%;
+}
+.delete-icon {
+    cursor: pointer;
+}
+
+.event-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.event-header {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+.event-time {
+  color: #555;
+}
+.event-details {
+  margin-top: 10px;
+  color: #777;
+}
+.view-calendar {
+  text-align: right;
+  margin-top: 20px;
+}
+.view-calendar a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #d14f4f; /* Color picked from the image */
+  }
+  .breadcrumb .separator {
+    margin: 0 10px;
+  }
+  .menu-icon {
+    border: 3px solid #d14f4f; /* Color picked from the image */
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    /* This is a simplified representation of the menu icon. Adjust as needed. */
+  }
+
+  .black-banner {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .black-banner .menu-icon {
+    background: #000; /* Placeholder for the menu icon */
+    width: 30px; /* Placeholder size */
+    height: 30px; /*Placeholder size*/
+    border-radius: 15px; /* Placeholder to represent a circle */
+    display: flex;
+
+    border: 2px solid #fff; /* Placeholder for icon border */
+  }
+  .black-banner .course-code {
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+  .black-banner .dropdown-icon {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
