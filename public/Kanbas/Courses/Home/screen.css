@@ -1,0 +1,9 @@
+.d-flex > .flex-fill {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex > .flex-fill > .flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
